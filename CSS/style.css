@@ -13,6 +13,9 @@ header{
 .logo{
     color: black;
 }
+.about-me{
+    justify-center:center;
+}
 
 nav {
     display: flex;
