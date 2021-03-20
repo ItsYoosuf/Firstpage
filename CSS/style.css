@@ -45,16 +45,3 @@ ul li a:hover
     color: black;
 
 }
-.about-me
-{
-    position: absolute;
-    background-color: rgb(185, 80, 233);
-    display: inline-block;
-    padding: 20px;
-    margin-top: 250px;
-    margin-right: 200px;
-}
-.skill-set
-{
-
-}
