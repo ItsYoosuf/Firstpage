@@ -5,9 +5,8 @@
 }
 header
 {
-    background-image: url(../DUDEY.jpg);
-    background-color: #ffffff;
-    height: 120vh;
+    background-color: #dfec2a;
+    height: 100vh;
     background-size:cover;
     background-position: center;
 }
@@ -17,7 +16,7 @@ nav
     justify-content: space-between;
     align-items:center;
     height:60px;
-    background-color:#f7f0f0;
+    background-color:#a39908;
     box-shadow:2px 2px 12px rgba(0,0,0,0.2);
     padding:0px 5%;
     
@@ -35,7 +34,6 @@ ul li a{
     text-decoration: none;
     color: whitesmoke;
     padding: 5px 30px;
-    border: 1px solid white;
     color: black;
    
 
@@ -43,9 +41,67 @@ ul li a{
 
 ul li a:hover
 {
-    background-color: rgb(0, 0, 0);
-    color: rgb(250, 250, 250);
+    background-color: rgb(109, 110, 13);
+    color: rgb(187, 216, 83);
     border-radius: 15px;
 
 }
+.container{
+    margin-top:5rem;
+    text-align: left;
+    margin-left: 2rem;
 
+}
+.skill-set{
+    max-width: 60%;
+    margin-top: 3rem;
+}
+.bar{
+    color: #000;
+    letter-spacing: 1px;
+    font-weight: 500;
+    font-size: 14px ;
+    position:relative;
+}
+.bar{
+    display: inline-block;
+    margin-bottom: 15px;
+    width: 100%;
+}
+.bar span{
+    position: relative;
+    display: inline-block;
+    width: 80%;
+    height: 20px;
+    background: #000;
+    border-radius: 15px;
+}
+.bar span.before{
+        position: absolute;
+        content: "";
+        top: 6px;
+        left: 5px;
+        width: 80%;
+        height: 50%;
+        background: linear-gradient(to left, #ff0057, #ffeb3b);
+        border-radius: 50px;
+        animation: bar 4s ease;
+
+}
+@keyframes bar{
+    from{
+        width: 0;
+    }
+}
+.bar:nth-child(1) span.before{
+        width: 55%;
+}
+.bar:nth-child(2) span.before{
+    width: 40%;
+}
+.bar:nth-child(3) span.before{
+    width: 90%;
+}
+.bar:nth-child(4) span.before{
+    width: 78%;
+}
