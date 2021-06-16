@@ -47,61 +47,11 @@ ul li a:hover
 
 }
 .container{
-    margin-top:5rem;
-    text-align: left;
-    margin-left: 2rem;
-
+    position: absolute;
 }
-.skill-set{
-    max-width: 60%;
-    margin-top: 3rem;
-}
-.bar{
-    color: #000;
-    letter-spacing: 1px;
-    font-weight: 500;
-    font-size: 14px ;
-    position:relative;
-}
-.bar{
-    display: inline-block;
-    margin-bottom: 15px;
-    width: 100%;
-}
-.bar span{
-    position: relative;
-    display: inline-block;
-    width: 80%;
-    height: 20px;
-    background: #000;
-    border-radius: 15px;
-}
-.bar span.before{
-        position: absolute;
-        content: "";
-        top: 6px;
-        left: 5px;
-        width: 80%;
-        height: 50%;
-        background: linear-gradient(to left, #ff0057, #ffeb3b);
-        border-radius: 50px;
-        animation: bar 4s ease;
-
-}
-@keyframes bar{
-    from{
-        width: 0;
-    }
-}
-.bar:nth-child(1) span.before{
-        width: 55%;
-}
-.bar:nth-child(2) span.before{
-    width: 40%;
-}
-.bar:nth-child(3) span.before{
-    width: 90%;
-}
-.bar:nth-child(4) span.before{
-    width: 78%;
+.image1
+{
+    position: absolute;
+    margin-left: 88vh;
+    margin-bottom: 75vh;
 }
