@@ -16,7 +16,7 @@ nav
     justify-content: space-between;
     align-items:center;
     height:60px;
-    background-color:#a39908;
+    background-color:white;
     box-shadow:2px 2px 12px rgba(0,0,0,0.2);
     padding:0px 5%;
     
@@ -41,8 +41,8 @@ ul li a{
 
 ul li a:hover
 {
-    background-color: rgb(109, 110, 13);
-    color: rgb(187, 216, 83);
+    background-color: black;
+    color: white;
     border-radius: 15px;
 
 }
@@ -52,6 +52,7 @@ ul li a:hover
 .image1
 {
     position: absolute;
+    margin-top: 15vh;
     margin-left: 88vh;
     margin-bottom: 75vh;
 }
