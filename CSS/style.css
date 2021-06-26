@@ -23,6 +23,7 @@ nav
    }
 .logo
    {
+       text-decoration: none;
        color:black;
        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
    }
@@ -54,10 +55,34 @@ ul li a:hover
 }
 .container1{
     background-color: aliceblue;
-    margin-right: 190vh;
-    margin-left: 10vh;
+    width: 30vh;
     box-shadow: 5px 8px 8px  #888888;
     border-radius: 12px;
     padding: 5px;
-    margin-top: 15vh;
+    
 }
+img 
+{
+    position: absolute;
+    width: 300px;
+    height: auto;
+    margin-left: 125vh;
+    margin-right: 35vh;
+}
+.container {
+    margin-left: 50px;
+    width: 50%; /* Full width */
+    background-color: #ddd; /* Grey background */
+  }
+  
+  .skills {
+    text-align: right; /* Right-align text */
+    padding-top: 10px; /* Add top padding */
+    padding-bottom: 10px; /* Add bottom padding */
+    color: white; /* White text color */
+  }
+  
+  .html {width: 80%; background-color: #04AA6D;} /* Green */
+  .css {width: 70%; background-color: #2196F3;} /* Blue */
+  .ve {width: 90%; background-color: #f44336;} /* Red */
+  .php {width: 60%; background-color: #808080;} /* Dark Grey */
