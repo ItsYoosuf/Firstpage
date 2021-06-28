@@ -66,6 +66,7 @@ img
     position: absolute;
     width: 300px;
     height: auto;
+    max-width:50%;
     margin-left: 125vh;
     margin-right: 35vh;
 }
