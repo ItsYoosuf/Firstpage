@@ -67,7 +67,7 @@ img
     width: 300px;
     height: auto;
     max-width:50%;
-    margin-left: 125vh;
+    margin-left: 75vmax;
     margin-right: 35vh;
 }
 .container {
