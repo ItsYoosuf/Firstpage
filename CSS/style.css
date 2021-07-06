@@ -71,11 +71,15 @@ img
     margin-left: 75vmax;
     margin-right: 35vh;
 }
+.skulls
+    {
+        background-color: #333;
+    }
 .skills
 {
     width: 500px;
     margin: 60px auto;
-    color:#353b48;
+    color: white;
 }
 .skills li
 {
@@ -94,7 +98,7 @@ img
 .bar span{
     height:2px;
     float:left;
-    background: #2187e7;
+    background: #ffffff;
 }
 .html
 {
@@ -103,7 +107,7 @@ img
 }
 .css
 {
-    width: 80%
+    width: 80%;
     animation: css 2s;
 }
 .ve
